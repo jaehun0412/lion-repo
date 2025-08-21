@@ -14,9 +14,13 @@ public class ArrayExam1 {
         // 선언
         int[] intArr1;
         int intArr2[];
+        int[][] intArr3;
+        int[] intArr4[];
 
         // 배열의 생성
         intArr1 = new int[3];
+
+        int[] intArr = new int[5];
 
         // index를 사용해서 배열의 요소에 접근
         intArr1[0] = 10;

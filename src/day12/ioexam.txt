@@ -1,0 +1,28 @@
+ckage day12;
+
+import java.io.*;
+import java.net.URL;
+
+public class IOExam1 {
+    public static void main(String[] args) throws IOException {
+//        InputStream fis = System.in;
+//         FileInputStream fis = new FileInputStream("input.txt");
+
+        // URL
+        URL url = new URL("https://www.naver.com");
+        InputStream fis = url.openStream();
+
+        InputStreamReader isr = new InputStreamReader(fis);
+        BufferedReader br = new BufferedReader(isr);
+
+        String msg = br.readLine();
+
+        System.out.println(msg);
+
+        br.close();
+        isr.close();
+        fis.close();
+
+        // IO 자원들을 사용하고 나면, close 하는 것이 좋다.
+    }
+}

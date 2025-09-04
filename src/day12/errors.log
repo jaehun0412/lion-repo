@@ -1,0 +1,7 @@
+[5]ERROR not Found
+[6]this is not ERROR
+
+=== 로그 분석 결과 ===
+전체 라인: 9
+오류 라인: 2
+오류율: 22.22%

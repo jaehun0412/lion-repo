@@ -1,0 +1,31 @@
+1: ckage day12;
+2: 
+3: import java.io.*;
+4: import java.net.URL;
+5: 
+6: public class IOExam1 {
+7:     public static void main(String[] args) throws IOException {
+8: //        InputStream fis = System.in;
+9: //         FileInputStream fis = new FileInputStream("input.txt");
+10: 
+11:         // URL
+12:         URL url = new URL("https://www.naver.com");
+13:         InputStream fis = url.openStream();
+14: 
+15:         InputStreamReader isr = new InputStreamReader(fis);
+16:         BufferedReader br = new BufferedReader(isr);
+17: 
+18:         String msg = br.readLine();
+19: 
+20:         System.out.println(msg);
+21: 
+22:         br.close();
+23:         isr.close();
+24:         fis.close();
+25: 
+26:         // IO 자원들을 사용하고 나면, close 하는 것이 좋다.
+27:     }
+28: }
+
+총 29줄 처리됨
+abc

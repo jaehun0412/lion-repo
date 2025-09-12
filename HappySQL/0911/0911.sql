@@ -215,6 +215,10 @@ CREATE TABLE students (
     -- TIMEZONE을 가진 것은 timestamp, DATETIME은 TIMEZONE을 가지고 있지 않다.
 );
 
+insert into students(name, age, email) values('kang', 10, 'carami@gmail.com');
+insert into students(name, age, email) values('kim', 130, 'kim@gmail.com');
+select * from students;
+
 select job from emp;
 desc emp;
 desc students;

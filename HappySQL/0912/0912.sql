@@ -65,3 +65,5 @@ ALTER table a
 add column updated_date timestamp null;
 
 select * from A;
+
+select * from dept;

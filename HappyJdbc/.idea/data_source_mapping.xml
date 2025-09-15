@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="mock:///DeleteTest.java" value="e8b4aa17-bec4-4b7b-a2a4-102089e3e1af" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/d804ce63-ec1c-42a3-b430-6a23d4b98808/console.sql" value="d804ce63-ec1c-42a3-b430-6a23d4b98808" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/e8416b2e-9866-417f-80db-585d4414b7bc/console.sql" value="e8416b2e-9866-417f-80db-585d4414b7bc" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/e8b4aa17-bec4-4b7b-a2a4-102089e3e1af/console.sql" value="e8b4aa17-bec4-4b7b-a2a4-102089e3e1af" />
+  </component>
+</project>
